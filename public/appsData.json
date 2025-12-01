@@ -1,0 +1,374 @@
+[
+  {
+    "image": "https://i.ibb.co.com/KcvTLmD3/spotify.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 1,
+    "description": "Spotify lets you explore a massive world of music, podcasts, and audio stories with ease. Discover millions of tracks from artists across every genre, create personalized playlists, and enjoy recommendations tailored to your taste. Whether you're working out, relaxing, studying, or traveling, Spotify provides the perfect soundtrack for any moment. With features like offline downloads, high-quality streaming, and smart algorithmic mixes, listening becomes more enjoyable and effortless. You can follow your favorite creators, share playlists with friends, and explore curated charts and mood-based mixes updated daily. Spotify also offers podcasts from around the world, giving you access to entertainment, education, and storytelling in one place. Everything is organized beautifully so you can find what you love instantly.",
+    "size": 42,
+    "reviews": 30000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 24000000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/FqLWx8br/Instagram.jpg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "id": 2,
+    "description": "Instagram is a vibrant platform where you can share your photos, videos, reels, and everyday moments with a global community. The app brings creative tools like filters, effects, and editing features, helping you express your ideas in unique ways. Stay connected with friends, family, and your favorite creators through stories, messages, and live streams. Explore a world of content tailored to your interests through the Explore page, where trending posts, reels, and topics constantly update. Whether you're building a personal brand, running a business, or simply sharing your life, Instagram gives you the tools to grow and engage with your audience. With shopping features, creator tools, and interactive elements like polls and Q&A, it's more than a social app—it's your creative space.",
+    "size": 38,
+    "reviews": 150000000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1400000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 115000000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/5Ww1h85L/WhatsApp.jpg",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms",
+    "id": 3,
+    "description": "WhatsApp Messenger offers fast, simple, and secure communication through messaging, voice calls, and video calls. It uses end-to-end encryption, ensuring your conversations remain private and protected. Share photos, videos, voice notes, documents, locations, and more instantly with individuals or groups. The interface is extremely easy to use, making communication seamless for people of all ages. With group chats, broadcast lists, and community features, WhatsApp helps you stay connected with friends, families, and organizations. You can sync devices, use WhatsApp Web, and enjoy smooth performance even on slower networks. Status updates let you share moments for 24 hours, while custom privacy controls allow you to choose what you share and with whom. It's a complete communication tool designed to keep people connected around the world.",
+    "size": 33,
+    "reviews": 200000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 4500000 },
+      { "name": "2 star", "count": 3200000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 35000000 },
+      { "name": "5 star", "count": 160000000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/M52y7dTS/TikTok.png",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 4,
+    "description": "TikTok is a global platform where users can create, watch, and share short-form videos packed with creativity, humor, and entertainment. With powerful editing tools, effects, filters, and music options, anyone can produce engaging content in seconds. Discover endless videos tailored to your interests through the For You feed, which continuously adapts based on what you like. TikTok encourages creativity by offering challenges, trends, duets, and stitching options that help users interact with others and participate in viral moments. Whether you're into dance, comedy, education, cooking, gaming, or lifestyle content, TikTok has something for everyone. The platform supports creators of all levels, offering tools to grow, engage, and build communities. It's a space where everyday moments turn into entertaining short videos.",
+    "size": 68,
+    "reviews": 120000000,
+    "ratingAvg": 4.2,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3500000 },
+      { "name": "2 star", "count": 2300000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 30000000 },
+      { "name": "5 star", "count": 78000000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/VF5cG4f/Facebookpng.png",
+    "title": "FaceBook",
+    "companyName": "Meta Platforms",
+    "id": 5,
+    "description": "Facebook helps you stay connected with people, communities, and interests from all around the world. Share updates, photos, videos, and memories while discovering new content through groups, pages, and the news feed. Whether you want to follow your favorite creators, support businesses, or join discussions, Facebook provides a space for meaningful interaction. Features like Marketplace let you buy and sell items locally, while Watch brings you a variety of videos, shows, and streams. Facebook also lets you create events, join communities, explore trending topics, and stay updated on what matters to you. With messaging integration, privacy tools, and personalized feeds, Facebook serves as a complete social platform where communication, entertainment, and community come together.",
+    "size": 55,
+    "reviews": 130000000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 3200000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 30000000 },
+      { "name": "5 star", "count": 82000000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/hxr7tKnw/YouTube.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 6,
+    "description": "YouTube is the world's largest platform for watching, creating, and sharing videos of every kind. From music, entertainment, and gaming to education, news, travel, and lifestyle, the app offers endless content for every interest. Subscribe to creators, follow channels, and customize your feed to match your preferences. You can upload your own videos, go live, interact with comments, and build your audience with YouTube's creator tools. Playlists, watch history, and smart recommendations make it easy to track and discover videos you'll love. Offline downloads, background playback, and high-quality streaming enhance your viewing experience. With Shorts, you can explore quick, fun videos made for mobile users. YouTube connects creators and viewers in a single global community.",
+    "size": 45,
+    "reviews": 140000000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 113000000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/Ndv0T08j/Snapchat.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 7,
+    "description": "Snapchat allows you to share quick, fun, and creative moments with friends through photos and videos that disappear after being viewed. Use unique lenses, filters, bitmojis, and AR effects to personalize your snaps. Stay connected with streaks, group chats, and stories, where you can see what your friends are up to throughout the day. The Discover section brings entertainment, news, and original shows directly from creators and publishers. Snap Map lets you explore what's happening around the world in real time. With privacy-focused features, Snapchat ensures your content stays between you and your friends. Whether communicating, exploring, or expressing yourself, Snapchat brings creativity and connection together.",
+    "size": 34,
+    "reviews": 29000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 20000000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/Ndgq7SHg/Telegram.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 8,
+    "description": "Telegram is a fast, secure, and feature-rich messaging app designed for powerful communication. With cloud-based syncing, you can access your messages from multiple devices without losing data. Telegram offers private chats with end-to-end encryption, large group capabilities, channels for broadcasting, and bots for automation and productivity. Share photos, videos, documents, and files of almost any size instantly. The app focuses on speed and privacy, delivering messages quickly and efficiently even on slow networks. Custom themes, stickers, animations, and media tools elevate your chat experience. Whether you're connecting with friends, managing communities, or collaborating professionally, Telegram offers a flexible and dependable platform for communication.",
+    "size": 29,
+    "reviews": 17000000,
+    "ratingAvg": 4.4,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 450000 },
+      { "name": "2 star", "count": 330000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 12000000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/9LsGPYg/Twitter-X.png",
+    "title": "Twitter (X)",
+    "companyName": "X Corp.",
+    "id": 9,
+    "description": "Twitter (X) is a social media platform where you can follow trending topics, share updates, join discussions, post tweets, images, and videos, and engage with communities around news, entertainment, and daily events.",
+    "size": 37,
+    "reviews": 18000000,
+    "ratingAvg": 4.0,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 9000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/WNZZ3LBv/Google-Maps.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 10,
+    "description": "Google Maps helps you navigate easily with detailed maps, real-time traffic updates, route planning for driving, walking, or cycling, explore nearby places, find businesses, and get accurate directions for any location worldwide.",
+    "size": 50,
+    "reviews": 16000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 9000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TB28SV10/Spotify-Lite.jpg",
+    "title": "Spotify Lite",
+    "companyName": "Spotify AB",
+    "id": 11,
+    "description": "Spotify Lite is a lightweight version of Spotify designed for low-end devices and slower networks. Enjoy streaming music, discover new songs, create playlists, and listen offline while saving storage and data usage efficiently.",
+    "size": 12,
+    "reviews": 1800000,
+    "ratingAvg": 4.2,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 1000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/r2K55KD3/LinkedIn.png",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 12,
+    "description": "LinkedIn is a professional networking platform where you can connect with colleagues, find job opportunities, share expertise, build your professional profile, follow companies, join groups, and expand your career network globally.",
+    "size": 40,
+    "reviews": 9000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 160000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 6000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bjnNTyDM/Canva.jpg",
+    "title": "Canva",
+    "companyName": "Canva",
+    "id": 13,
+    "description": "Canva is an intuitive design platform that allows you to create graphics, presentations, posters, social media posts, and videos with ready-made templates, drag-and-drop features, and collaborative tools for creative projects.",
+    "size": 35,
+    "reviews": 12000000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 10000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HTWdCmVq/Pinterest.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest",
+    "id": 14,
+    "description": "Pinterest helps you discover creative ideas for fashion, recipes, home decor, DIY projects, and more. Save pins, create boards, and explore inspiration shared by users around the world for your projects and hobbies.",
+    "size": 32,
+    "reviews": 9000000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 7000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/DgVjWSq1/Zoom.jpg",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 15,
+    "description": "Zoom is a video conferencing platform for meetings, webinars, and online collaboration. Connect with colleagues, share screens, chat, and hold high-quality video calls for business, education, and personal use from anywhere.",
+    "size": 60,
+    "reviews": 14000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 10000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5WfhVk5D/Reddit.png",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 16,
+    "description": "Reddit is a discussion platform with communities for every interest. Users can post content, comment, vote, share ideas, ask questions, and participate in conversations ranging from news and entertainment to hobbies and advice.",
+    "size": 28,
+    "reviews": 3000000,
+    "ratingAvg": 4.1,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 1400000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/PsCSyTfx/Disney.png",
+    "title": "Disney+",
+    "companyName": "Disney",
+    "id": 17,
+    "description": "Disney+ is a streaming platform offering a huge collection of movies and series from Disney, Marvel, Pixar, Star Wars, and National Geographic. Enjoy family-friendly content, exclusive originals, and a vast library of entertainment for all ages anywhere, anytime on multiple devices.",
+    "size": 45,
+    "reviews": 6000000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 4300000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/7D4W9PD/CapCut.png",
+    "title": "CapCut",
+    "companyName": "Bytedance",
+    "id": 18,
+    "description": "CapCut is a versatile video editing app that lets you create professional-quality videos with a wide range of effects, filters, transitions, and AI-powered tools. Edit, trim, and enhance your videos, add music and text, and share your creations seamlessly on social platforms.",
+    "size": 80,
+    "reviews": 9000000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 140000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 5500000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/99XfVDD8/Messenger.jpg",
+    "title": "Messenger",
+    "companyName": "Meta Platforms",
+    "id": 19,
+    "description": "Messenger is a messaging app that allows you to chat, make voice and video calls, send photos, videos, and files, and connect with friends and family instantly. Enjoy group chats, fun stickers, and secure communication across devices effortlessly.",
+    "size": 44,
+    "reviews": 100000000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500000 },
+      { "name": "2 star", "count": 1300000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 64000000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/v627TzLR/Subway-Surfers.png",
+    "title": "Subway Surfers",
+    "companyName": "SYBO Games",
+    "id": 20,
+    "description": "Subway Surfers is an exciting endless runner game with vibrant graphics and fast-paced gameplay. Dodge obstacles, collect coins, unlock characters and boards, and compete with friends worldwide. Enjoy daily challenges, missions, and events to keep the gameplay fresh and fun.",
+    "size": 150,
+    "reviews": 38000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 27000000 }
+    ]
+  }
+]

@@ -5,14 +5,14 @@ import Footer from '../../components/Footer/Footer';
 
 const Root = () => {
   return (
-    <div className="">
-      <div className="max-w-11/12 mx-auto bg-white">
+    <div>
+      <div className="bg-white">
         <Navbar></Navbar>
       </div>
       <div>
         <Outlet></Outlet>
       </div>
-      <div className="">
+      <div>
         <Footer></Footer>
       </div>
     </div>
