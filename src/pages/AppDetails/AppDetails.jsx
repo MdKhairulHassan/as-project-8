@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import iconDownload from '../../assets/icon-downloads.png';
 import iconRatings from '../../assets/icon-ratings.png';
 import iconReview from '../../assets/icon-review.png';
 import { useLoaderData, useParams } from 'react-router';
 import RatingsChart from '../../components/RatingsChart/RatingsChart';
+
+// =================================== swal for alert message
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content';
+
+const MySwal = withReactContent(Swal);
+// ===================================
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -12,7 +19,8 @@ const AppDetails = () => {
   const data = useLoaderData();
   // console.log(data);
   const singleApp = data.find(app => app.id === appId);
-  // console.log(singleApp);
+
+  console.log(singleApp);
   const {
     image,
     title,
@@ -46,6 +54,51 @@ const AppDetails = () => {
   //   count: downloadsShortCalculation(rating.count),
   // }));
   // console.log(ratArray);
+
+  // const [isInstall, setIsInstall] = useState(false);
+
+  // Load from localStorage or create default {1:false, 2:false ...}
+  const [clickedCards, setClickedCards] = useState(() => {
+    return JSON.parse(localStorage.getItem('clickedCards')) || {};
+  });
+
+  // Save anytime clickedCards updates
+  useEffect(() => {
+    localStorage.setItem('clickedCards', JSON.stringify(clickedCards));
+  }, [clickedCards]);
+
+  // Listen for changes from other pages
+  useEffect(() => {
+    const sync = () => {
+      const updated = JSON.parse(localStorage.getItem('clickedCards')) || {};
+      setClickedCards(updated);
+    };
+
+    window.addEventListener('clickedCardsUpdated', sync);
+
+    return () => window.removeEventListener('clickedCardsUpdated', sync);
+  }, []);
+
+  // const toggleCard = id => {
+  //   setClickedCards(prev => ({
+  //     ...prev,
+  //     [id]: !prev[id], // toggle true/false
+  //   }));
+  // };
+
+  const installApp = id => {
+    setClickedCards(prev => ({
+      ...prev, // ...prev means previous value spread
+      [id]: true, // install only (NO toggle)
+    }));
+
+    // for alert message
+    MySwal.fire({
+      title: 'Thanks to install it!',
+      text: 'You clicked the install now button!',
+      icon: 'success',
+    });
+  };
 
   return (
     <div className="bg-[#F5F5F5]">
@@ -97,8 +150,25 @@ const AppDetails = () => {
                 </div>
 
                 {/* Install Button */}
-                <button className="bg-[#00D390] text-white font-semibold px-6 py-2 rounded-xl mt-4">
-                  Install Now ({size} MB)
+                {/* <button
+                  onClick={() => toggleCard(id)}
+                  className={`font-semibold px-6 py-2 rounded-xl mt-4 btn ${
+                    clickedCards[id] ? 'bg-green-600' : 'bg-amber-600gray'
+                  }`}
+                >
+                  {clickedCards[id] ? 'Installed' : `Install Now (${size} MB)`}
+                </button> */}
+
+                <button
+                  disabled={clickedCards[id] === true}
+                  onClick={() => installApp(id)}
+                  className={`font-semibold px-6 py-2 rounded-xl mt-4 btn ${
+                    clickedCards[id]
+                      ? 'bg-green-600 cursor-not-allowed text-gray-300'
+                      : 'bg-[#00D390]'
+                  }`}
+                >
+                  {clickedCards[id] ? 'Installed' : `Install Now (${size} MB)`}
                 </button>
               </div>
             </div>

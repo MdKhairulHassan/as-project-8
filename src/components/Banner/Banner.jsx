@@ -21,7 +21,7 @@ const Banner = () => {
             into digital experiences that truly make an impact.
           </p>
           <div className="flex justify-center gap-4 pt-7">
-            <button className="btn">
+            <button className="btn border-3">
               <img className="w-6" src={googleImg} alt="" />{' '}
               <a
                 href="https://play.google.com/store/games?device=phone&hl=en"
@@ -32,7 +32,7 @@ const Banner = () => {
                 </span>
               </a>
             </button>
-            <button className="btn">
+            <button className="btn border-3">
               <img className="w-6" src={appImg} alt="" />
               <a href="https://www.apple.com/app-store/" target="_blank">
                 <span className="font-semibold text-xl text-[#001931]">

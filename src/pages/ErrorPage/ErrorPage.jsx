@@ -1,5 +1,6 @@
 import React from 'react';
 import errorImg from '../../assets/error-404.png';
+import { Link } from 'react-router';
 
 const ErrorPage = () => {
   return (
@@ -17,9 +18,9 @@ const ErrorPage = () => {
               The page you are looking for is not available.
             </p>
             <div className="flex justify-center pt-5">
-              <a className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] btn px-10 py-5 text-white text-sm font-semibold">
+              <Link to={'/'} className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] btn px-10 py-5 text-white text-sm font-semibold">
                 Go Back!
-              </a>
+              </Link>
             </div>
           </div>
         </div>

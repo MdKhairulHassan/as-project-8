@@ -52,8 +52,8 @@ const RatingsChart = ({ ratings }) => {
         <YAxis dataKey="name" type="category" scale="band" width="auto" />
         <Tooltip />
         <Legend />
-        <Line dataKey="count" stroke="#632EE3" />
-        <Area dataKey="count" fill="#FF8811" stroke="#8884d8" />
+        {/* <Line dataKey="count" stroke="#632EE3" /> */}
+        {/* <Area dataKey="count" fill="#FF8811" stroke="#FF8811" /> */}
         <Bar dataKey="count" barSize={20} fill="#00D390" />
       </ComposedChart>
     </div>

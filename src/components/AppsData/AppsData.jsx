@@ -1,10 +1,11 @@
 // import React, { useEffect, useState } from 'react';
-import { use } from 'react';
+// import { use } from 'react';
 import AppsCards from '../AppsCards/AppsCards';
 import { Link } from 'react-router';
 
-const AppsData = ({ appPromise }) => {
-  const appsData = use(appPromise);
+const AppsData = ({ data }) => {
+  const appsData = data;
+  // console.log(appsData);
   // ======================================================
   // const [allApps, setAllApps] = useState([]);
   // useEffect(() => {
