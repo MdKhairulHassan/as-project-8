@@ -2,9 +2,11 @@ import React, { useEffect, useState } from 'react';
 import iconDownload from '../../assets/icon-downloads.png';
 import iconRatings from '../../assets/icon-ratings.png';
 import iconReview from '../../assets/icon-review.png';
-import { useLoaderData, useParams } from 'react-router';
+import { useLoaderData } from 'react-router';
 import RatingsChart from '../../components/RatingsChart/RatingsChart';
 
+// =================================== toast for alert message
+// import { ToastContainer, toast } from 'react-toastify';
 // =================================== swal for alert message
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
@@ -13,26 +15,27 @@ const MySwal = withReactContent(Swal);
 // ===================================
 
 const AppDetails = () => {
-  const { id } = useParams();
+  // const { id } = useParams();
   // console.log(id);
-  const appId = parseInt(id);
+  // const appId = parseInt(id);
   const data = useLoaderData();
   // console.log(data);
-  const singleApp = data.find(app => app.id === appId);
+  // const singleApp = data.find(app => app.id === appId);
 
-  console.log(singleApp);
+  // console.log(singleApp);
+  console.log(data);
   const {
     image,
     title,
     companyName,
-    // id,
+    id,
     description,
     size,
     reviews,
     ratingAvg,
     downloads,
     ratings,
-  } = singleApp;
+  } = data;
 
   function downloadsShortCalculation(dwn) {
     return dwn >= 1e15
@@ -98,6 +101,11 @@ const AppDetails = () => {
       text: 'You clicked the install now button!',
       icon: 'success',
     });
+
+    // for alert message
+    // toast.success('App uninstalled!', {
+    //   position: 'top-right',
+    // });
   };
 
   return (
@@ -189,6 +197,7 @@ const AppDetails = () => {
 
               <p className="text-[#627382] leading-relaxed">{description}</p>
             </div>
+            {/* <ToastContainer /> */}
           </div>
         </div>
       </div>

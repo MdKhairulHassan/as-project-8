@@ -7,6 +7,7 @@ const Root = () => {
   const navigation = useNavigation();
 
   const isLoading = navigation.state === 'loading';
+
   return (
     <div>
       <div className="bg-white">

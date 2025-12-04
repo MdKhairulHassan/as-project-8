@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { CiSearch } from 'react-icons/ci';
 import AppsCards from '../../components/AppsCards/AppsCards';
-import errorImg from '../../assets/App-Error.png';
+// import errorImg from '../../assets/App-Error.png';
 import { useLoaderData } from 'react-router';
+import AppsNotFound from '../AppsNotFound/AppsNotFound';
 
 const AllApps = () => {
   const data = useLoaderData();
@@ -26,7 +27,7 @@ const AllApps = () => {
       setAllApps(data), setOriginalApps(data)
     );
     forCascadingRendersProblem();
-  });
+  }, []);
 
   // Debounce search filtering
   useEffect(() => {
@@ -93,27 +94,7 @@ const AllApps = () => {
             <span className="loading loading-spinner text-info w-[100vh] h-[101vh]"></span>
           </div>
         ) : allApps.length === 0 ? (
-          <div className="flex justify-center pt-30">
-            <div>
-              <div className="flex justify-center">
-                <img src={errorImg} alt="" />
-              </div>
-              <h6 className="text-[#001931] font-semibold text-5xl text-center pt-20">
-                Oops, page not found!
-              </h6>
-              <p className="text-xl text-[#627382] text-center pt-6">
-                The page you are looking for is not available.
-              </p>
-              <div className="flex justify-center pt-5">
-                <a
-                  href={'/allApps'}
-                  className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] btn px-10 py-5 text-white text-sm font-semibold"
-                >
-                  Go Back!
-                </a>
-              </div>
-            </div>
-          </div>
+          <AppsNotFound></AppsNotFound>
         ) : (
           <div className="flex justify-center">
             <div className="py-10 grid grid-cols-4 gap-10">

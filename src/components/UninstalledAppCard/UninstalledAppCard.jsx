@@ -1,4 +1,5 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const UninstalledAppCard = ({ singleApp }) => {
   const {
@@ -37,6 +38,8 @@ const UninstalledAppCard = ({ singleApp }) => {
 
     // notify all pages
     window.dispatchEvent(new Event('clickedCardsUpdated'));
+
+    toast.success('App uninstalled!');
   };
 
   return (
@@ -78,7 +81,7 @@ const UninstalledAppCard = ({ singleApp }) => {
       {/* Uninstall Button */}
       <button
         onClick={() => uninstallApp(id)}
-        className="bg-emerald-500 hover:bg-emerald-600 text-white text-sm px-4 py-2 rounded-lg transition"
+        className="bg-emerald-500 hover:bg-emerald-600 text-white text-sm px-4 py-2 rounded-lg transition cursor-pointer"
       >
         Uninstall
       </button>
