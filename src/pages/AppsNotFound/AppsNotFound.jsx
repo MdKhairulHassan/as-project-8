@@ -9,10 +9,11 @@ const AppsNotFound = () => {
           <img src={errorImg} alt="" />
         </div>
         <h6 className="text-[#001931] font-semibold text-5xl text-center pt-20">
-          Oops, page not found!
+          Oops, APP NOT FOUND!
         </h6>
         <p className="text-xl text-[#627382] text-center pt-6">
-          The page you are looking for is not available.
+          The App you are requesting is not found on our system. please try
+          another apps
         </p>
         <div className="flex justify-center pt-5">
           <a

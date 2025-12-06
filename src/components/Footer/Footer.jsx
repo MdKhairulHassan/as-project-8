@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const Footer = () => {
   return (
@@ -28,13 +29,13 @@ const Footer = () => {
         </footer>
         <footer className="footer text-[#FAFAFA] border-gray-500 border-t px-10 py-4">
           <aside className="items-center">
-            <a className="w-10 flex items-center gap-2">
-              <img src="/logo.png" alt="logo" />
+            <Link to={'/'} className="flex items-center gap-2">
+              <img src="/logo.png" alt="logo" className="w-10" />
               <span className="font-bold text-lg bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">
-                HERO.IO
+                Trending Apps Store
               </span>
-            </a>
-            <p className='pt-4'>
+            </Link>
+            <p className="pt-4">
               ACME Industries Ltd.
               <br />
               Providing reliable tech since 1992

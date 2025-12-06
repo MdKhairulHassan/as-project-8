@@ -102,11 +102,11 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <NavLink to={'/'} className="w-10 flex items-center gap-2">
-          <img src="/logo.png" alt="logo" />
-          <span className="font-bold text-lg bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">
-            HERO.IO
-          </span>
+        <NavLink to={'/'} className="flex items-center gap-2">
+          <img src="/logo.png" alt="logo" className='w-10'/>
+          <p className="font-bold text-lg bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">
+            Trending Apps Store
+          </p>
         </NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">

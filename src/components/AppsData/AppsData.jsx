@@ -29,7 +29,7 @@ const AppsData = ({ data }) => {
           </p>
         </div>
 
-        <div className="pb-10 grid grid-cols-4 gap-y-10">
+        <div className="pb-10 grid grid-cols-4 gap-10">
           {appsData.map(data => (
             <AppsCards key={data.id} data={data}></AppsCards>
           ))}
