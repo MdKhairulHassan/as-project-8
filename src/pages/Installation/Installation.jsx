@@ -51,15 +51,15 @@ const Installation = () => {
     <div className="bg-[#F5F5F5]">
       <div className="max-w-11/12 mx-auto py-20">
         <div className="text-center pb-20">
-          <h1 className="font-bold text-5xl text-[#001931]">
+          <h1 className="font-bold text-5xl text-[#001931] max-[351px]:text-4xl max-[263px]:text-3xl max-[219px]:text-2xl">
             Your Installed Apps
           </h1>
           <p className="text-xl text-[#627382] mt-6">
             Explore All Trending Apps on the Market developed by us
           </p>
         </div>
-        <div className="flex items-center justify-between px-3">
-          <h5 className="font-semibold text-2xl">
+        <div className="flex items-center justify-between px-3 max-[370px]:px-0 max-[370px]:flex-col max-[370px]:gap-y-3">
+          <h5 className="font-semibold text-2xl max-[212px]:text-xl">
             ({appList.length}) Apps Found
           </h5>
           <div>
@@ -67,7 +67,7 @@ const Installation = () => {
               <input type="search" placeholder="Search Apps" />
             </label> */}
 
-            <div className="dropdown dropdown-end">
+            <div className="dropdown dropdown-end max-[355px]:dropdown-center">
               <div
                 tabIndex={0}
                 role="button"
@@ -84,7 +84,7 @@ const Installation = () => {
               </div>
               <ul
                 tabIndex="-1"
-                className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm mt-1"
+                className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm mt-1 max-[355px]:w-full"
               >
                 <li>
                   <a onClick={() => handleSort('▼')}>default</a>

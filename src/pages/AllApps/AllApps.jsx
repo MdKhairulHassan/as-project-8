@@ -65,7 +65,7 @@ const AllApps = () => {
     <div className="bg-[#F5F5F5]">
       <div className="max-w-11/12 mx-auto py-20">
         <div className="text-center pb-20">
-          <h1 className="font-bold text-5xl text-[#001931]">
+          <h1 className="font-bold text-5xl text-[#001931] max-[328px]:text-4xl max-[236px]:text-3xl">
             Our All Applications
           </h1>
           <p className="text-xl text-[#627382] mt-6">
@@ -73,8 +73,8 @@ const AllApps = () => {
           </p>
         </div>
 
-        <div className="flex items-center justify-between px-3">
-          <h5 className="font-semibold text-2xl">
+        <div className="flex items-center justify-between px-3 max-[515px]:flex-col max-[515px]:gap-y-5 max-[515px]:px-0">
+          <h5 className="font-semibold text-2xl max-[212px]:text-xl">
             ({allApps.length}) Apps Found
           </h5>
           <div>
@@ -97,7 +97,7 @@ const AllApps = () => {
           <AppsNotFound></AppsNotFound>
         ) : (
           <div className="flex justify-center">
-            <div className="py-10 grid grid-cols-4 gap-10">
+            <div className="py-10 grid grid-cols-4 gap-10 max-[1116px]:grid-cols-3 max-[1116px]:gap-5 max-[843px]:grid-cols-2 max-[550px]:grid-cols-1">
               {allApps.map(data => (
                 <AppsCards key={data.id} data={data} />
               ))}

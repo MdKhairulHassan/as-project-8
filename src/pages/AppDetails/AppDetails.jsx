@@ -114,7 +114,7 @@ const AppDetails = () => {
         <div>
           <div className="w-full max-w-5xl mx-auto p-6 space-y-8">
             {/* Header Section */}
-            <div className="flex items-start gap-6">
+            <div className="flex items-start gap-6 max-[660px]:flex-col">
               <div className="w-75 h-70 rounded-2xl bg-gray-100 flex items-center justify-center text-5xl">
                 <img className="w-full h-full rounded-3xl" src={image} alt="" />
               </div>
@@ -127,9 +127,13 @@ const AppDetails = () => {
                 </p>
 
                 {/* Stats Cards */}
-                <div className="flex items-center gap-10 mt-4 pt-4 border-t border-[#00193140]">
-                  <div className="">
-                    <img className="pb-3" src={iconDownload} alt="" />
+                <div className="flex items-center gap-10 mt-4 pt-4 border-t border-[#00193140] max-[355px]:flex-col">
+                  <div className="max-[355px]:w-full max-[355px]:flex max-[355px]:items-center max-[355px]:justify-between max-[355px]:gap-x-9">
+                    <img
+                      className="pb-3 max-[355px]:w-12"
+                      src={iconDownload}
+                      alt=""
+                    />
                     <p className="text-green-600 text-sm font-semibold py-1">
                       Downloads
                     </p>
@@ -138,16 +142,24 @@ const AppDetails = () => {
                     </p>
                   </div>
 
-                  <div className="">
-                    <img className="pb-3" src={iconRatings} alt="" />
+                  <div className="max-[355px]:w-full max-[355px]:flex max-[355px]:items-center max-[355px]:justify-between max-[355px]:gap-x-9">
+                    <img
+                      className="pb-3 max-[355px]:w-12"
+                      src={iconRatings}
+                      alt=""
+                    />
                     <p className="text-orange-500 text-sm font-semibold py-1">
                       Average Ratings
                     </p>
                     <p className="text-2xl font-bold">{ratingAvg}</p>
                   </div>
 
-                  <div className="">
-                    <img className="pb-3" src={iconReview} alt="" />
+                  <div className="max-[355px]:w-full max-[355px]:flex max-[355px]:items-center max-[355px]:justify-between max-[355px]:gap-x-9">
+                    <img
+                      className="pb-3 max-[355px]:w-12"
+                      src={iconReview}
+                      alt=""
+                    />
                     <p className="text-purple-600 text-sm font-semibold py-1">
                       Total Reviews
                     </p>

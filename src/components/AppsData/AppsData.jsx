@@ -29,11 +29,31 @@ const AppsData = ({ data }) => {
           </p>
         </div>
 
-        <div className="pb-10 grid grid-cols-4 gap-10">
-          {appsData.map(data => (
-            <AppsCards key={data.id} data={data}></AppsCards>
-          ))}
+        <div className="flex justify-center">
+          <div className="pb-10 grid grid-cols-4 gap-10 max-[1116px]:grid-cols-3 max-[1116px]:gap-5 max-[843px]:grid-cols-2 max-[550px]:grid-cols-1">
+            {appsData.map((data, index) => {
+              // Calculate the total number of elements
+              const totalElements = appsData.length;
+
+              // Determine if the current element is one of the last two elements
+              const isLastTwo = index >= totalElements - 2;
+
+              // Apply a class that hides the element at a specific breakpoint (e.g., medium screens and up)
+              // The element will be visible on mobile, but hidden on 'md' screens and larger.
+              const visibilityClass = isLastTwo ? 'max-[1116px]:hidden' : '';
+
+              return (
+                <AppsCards
+                  key={data.id}
+                  data={data}
+                  // Apply the responsive class directly to the wrapping element
+                  className={visibilityClass}
+                ></AppsCards>
+              );
+            })}
+          </div>
         </div>
+
         <div className="flex justify-center pt-10">
           <Link
             to={'/allApps'}

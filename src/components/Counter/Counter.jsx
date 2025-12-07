@@ -10,7 +10,7 @@ const Counter = () => {
               Trusted by Millions, Built for You
             </h1>
           </div>
-          <div className="flex pt-10 justify-around">
+          <div className="flex pt-10 justify-around max-[680px]:flex-col max-[680px]:justify-center max-[680px]:gap-y-16">
             <div className="text-center">
               <p className="text-sm text-[#ffffffc9]">Total Downloads</p>
               <h6 className="font-extrabold text-6xl text-white py-5">29.6M</h6>

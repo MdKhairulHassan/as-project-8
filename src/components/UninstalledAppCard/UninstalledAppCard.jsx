@@ -43,7 +43,7 @@ const UninstalledAppCard = ({ singleApp }) => {
   };
 
   return (
-    <div className="w-full bg-white p-4 rounded-xl shadow flex items-center justify-between">
+    <div className="w-full bg-white p-4 rounded-xl shadow flex items-center justify-between max-[410px]:flex-col max-[410px]:gap-y-2">
       {/* Left Section */}
       <div className="flex items-center gap-4">
         {/* App Icon */}

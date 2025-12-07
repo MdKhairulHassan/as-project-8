@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 
-const AppsCards = ({ data }) => {
+const AppsCards = ({ data, className }) => {
   // console.log(data);
   const {
     image,
@@ -30,7 +30,7 @@ const AppsCards = ({ data }) => {
   }
 
   return (
-    <Link to={`/appDetails/${id}`}>
+    <Link to={`/appDetails/${id}`} className={`${className}`}>
       <div className="w-64 p-3 bg-white shadow-md rounded-xl">
         {/* Image placeholder */}
         <div className="w-full h-50 bg-gray-300 rounded-md">

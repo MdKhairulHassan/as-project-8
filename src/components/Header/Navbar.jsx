@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { NavLink } from 'react-router';
+import { IoMenu } from 'react-icons/io5';
 
 const Navbar = () => {
   const links = (
@@ -76,24 +77,10 @@ const Navbar = () => {
   );
   return (
     <div className="navbar max-w-11/12 mx-auto">
-      <div className="navbar-start">
+      <div className="navbar-start max-[453px]:w-full">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              {' '}
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h8m-8 6h16"
-              />{' '}
-            </svg>
+            <IoMenu className="text-xl text-[#9F62F2]" />
           </div>
           <ul
             tabIndex="-1"
@@ -103,16 +90,16 @@ const Navbar = () => {
           </ul>
         </div>
         <NavLink to={'/'} className="flex items-center gap-2">
-          <img src="/logo.png" alt="logo" className='w-10'/>
-          <p className="font-bold text-lg bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">
-            Trending Apps Store
+          <img src="/logo.png" alt="logo" className="w-10" />
+          <p className="font-bold text-lg bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text max-[235px]:text-sm">
+            Innovated Apps Store
           </p>
         </NavLink>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center hidden lg:flex max-[453px]:hidden">
         <ul className="flex gap-4 menu-horizontal px-1">{links}</ul>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end max-[453px]:hidden">
         <a
           href="https://github.com/MdKhairulHassan"
           target="_blank"
