@@ -32,7 +32,7 @@ const Banner = () => {
             </a>
           </div>
           <div className="flex justify-center gap-4 pt-7 max-[374px]:flex-col">
-            <button className="btn border-3">
+            <button className="btn border-3 bg-white hover:bg-gray-300">
               <img className="w-6" src={googleImg} alt="" />{' '}
               <a
                 href="https://play.google.com/store/games?device=phone&hl=en"
@@ -43,7 +43,7 @@ const Banner = () => {
                 </span>
               </a>
             </button>
-            <button className="btn border-3">
+            <button className="btn border-3 bg-white hover:bg-gray-300">
               <img className="w-6" src={appImg} alt="" />
               <a href="https://www.apple.com/app-store/" target="_blank">
                 <span className="font-semibold text-xl text-[#001931]">
