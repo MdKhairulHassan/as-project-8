@@ -74,16 +74,17 @@ const AllApps = () => {
         </div>
 
         <div className="flex items-center justify-between px-3 max-[515px]:flex-col max-[515px]:gap-y-5 max-[515px]:px-0">
-          <h5 className="font-semibold text-2xl max-[212px]:text-xl">
+          <h5 className="font-semibold text-2xl text-[#001931] max-[212px]:text-xl">
             {`(${allApps.length})`} All Apps
           </h5>
           <div>
             <label className="input bg-[#F5F5F5] border border-[#bfbfbf] rounded-sm px-3 py-2">
-              <CiSearch />
+              <CiSearch className="text-gray-700" />
               <input
                 type="search"
                 placeholder="Search Apps"
                 onChange={handleSearchApps}
+                className="flex-1 text-black placeholder:text-gray-500 bg-transparent outline-none"
               />
             </label>
           </div>
