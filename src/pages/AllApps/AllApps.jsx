@@ -75,7 +75,7 @@ const AllApps = () => {
 
         <div className="flex items-center justify-between px-3 max-[515px]:flex-col max-[515px]:gap-y-5 max-[515px]:px-0">
           <h5 className="font-semibold text-2xl max-[212px]:text-xl">
-            ({allApps.length}) Apps Found
+            ({allApps.length}) All Apps
           </h5>
           <div>
             <label className="input bg-[#F5F5F5] border border-[#bfbfbf] rounded-sm px-3 py-2">

@@ -60,7 +60,7 @@ const Installation = () => {
         </div>
         <div className="flex items-center justify-between px-3 max-[370px]:px-0 max-[370px]:flex-col max-[370px]:gap-y-3">
           <h5 className="font-semibold text-2xl max-[212px]:text-xl">
-            ({appList.length}) Apps Found
+            ({appList.length}) Installed Apps
           </h5>
           <div>
             {/* <label className="input bg-[#F5F5F5] border border-[#bfbfbf] rounded-sm px-3 py-2">
